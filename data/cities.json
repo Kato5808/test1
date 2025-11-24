@@ -4,69 +4,69 @@
     "prefecture": "北海道",
     "catchcopy": "グルメと雪景色の両方を楽しめる北の都",
     "description": "海鮮やラーメンなどのグルメに加え、冬の雪まつりやイルミネーションなど季節のイベントが魅力です。",
-    "image": "images/sapporo.jpg",
+    "image": "images/sapporo.jpg"
   },
   {
     "city": "仙台",
     "prefecture": "宮城県",
     "catchcopy": "杜の都で味わう、緑と牛たんの贅沢時間",
     "description": "街中に緑が多く、落ち着いた雰囲気の中で名物の牛たんやずんだ餅など東北グルメを楽しめます。",
-    "image": "images/sendai.jpg",
+    "image": "images/sendai.jpg"
   },
   {
     "city": "東京",
     "prefecture": "東京都",
     "catchcopy": "最先端と伝統が同居する日本の中心地",
     "description": "高層ビル群から下町まで、多彩なエリアとカルチャーが集まる都市。ショッピングや観光スポットも豊富です。",
-    "image": "images/tokyo.jpg",
+    "image": "images/tokyo.jpg"
   },
   {
     "city": "横浜",
     "prefecture": "神奈川県",
     "catchcopy": "海と夜景を楽しめる港町",
     "description": "みなとみらいの夜景や中華街など、デートから家族旅行まで幅広く楽しめるおしゃれな港町です。",
-    "image": "images/yokohama.jpg",
+    "image": "images/yokohama.jpg"
   },
   {
     "city": "金沢",
     "prefecture": "石川県",
     "catchcopy": "伝統とアートが交差する城下町",
     "description": "兼六園やひがし茶屋街など、歴史ある街並みと現代アートスポットが共存する落ち着いた観光都市です。",
-    "image": "images/kanazawa.jpg",
+    "image": "images/kanazawa.jpg"
   },
   {
     "city": "京都",
     "prefecture": "京都府",
     "catchcopy": "四季折々の美しさを楽しめる古都",
     "description": "寺社仏閣や町家の風景に加え、春の桜や秋の紅葉など季節ごとに異なる表情を見せてくれます。",
-    "image": "images/kyoto.jpg",
+    "image": "images/kyoto.jpg"
   },
   {
     "city": "大阪",
     "prefecture": "大阪府",
     "catchcopy": "食いだおれの街で楽しむパワフルな一日",
     "description": "たこ焼きやお好み焼きなどのグルメに加え、USJや道頓堀などエンタメ要素も盛りだくさんです。",
-    "image": "images/osaka.jpg",
+    "image": "images/osaka.jpg"
   },
   {
     "city": "広島",
     "prefecture": "広島県",
     "catchcopy": "平和と自然、両方に触れられる街",
     "description": "平和記念公園や宮島など、歴史を学びつつ、美しい景色やご当地グルメも楽しめる観光地です。",
-    "image": "images/hiroshima.jpg",
+    "image": "images/hiroshima.jpg"
   },
   {
     "city": "福岡",
     "prefecture": "福岡県",
     "catchcopy": "屋台文化が息づく九州の玄関口",
     "description": "ラーメンやもつ鍋などのグルメに加え、空港から市街地へのアクセスも良く、短期旅行にもぴったりです。",
-    "image": "images/fukuoka.jpg",
+    "image": "images/fukuoka.jpg"
   },
   {
     "city": "那覇",
     "prefecture": "沖縄県",
     "catchcopy": "青い海とゆったりした時間を楽しむ南国都市",
     "description": "国際通りでの散策や、美しいビーチへのアクセスも良く、沖縄らしい雰囲気を満喫できます。",
-    "image": "images/naha.jpg",
+    "image": "images/naha.jpg"
   }
 ]
