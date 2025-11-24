@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>あなたへのおすすめ観光地</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">あなたへのおすすめ観光地</h1>
+      <p class="site-subtitle">
+        日本の10都市から、あなたにぴったりの3つをピックアップしました。<br />
+        ページを開くたびに、ランダムでおすすめが変わります。
+      </p>
+      <button id="reload-btn" class="reload-button">🔄 おすすめを更新する</button>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="cards-section">
+      <div class="container">
+        <div id="cards-container" class="cards-grid">
+          <!-- JSでカードが挿入されます -->
+        </div>
+        <p id="message" class="message"></p>
+      </div>
+    </section>
+
+    <section class="tech-section">
+      <div class="container">
+        <h2 class="section-title">このページでやっていること</h2>
+        <ul class="tech-list">
+          <li>JSONファイル（10都市分のデータ）を <code>fetch</code> で取得</li>
+          <li>JavaScriptでランダムに3都市を選んでカードを生成</li>
+          <li>ボタンを押すと再度ランダムで3都市を選び直して表示</li>
+          <li>レスポンシブ対応のカードレイアウト（PCは3カラム、スマホは1カラム）</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>
+        © 2025 Your Name | 
+        <a href="https://github.com/your-name" target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </small>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
