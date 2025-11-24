@@ -176,25 +176,6 @@ a:hover {
   text-align: center;
 }
 
-/* 技術説明セクション */
-.tech-section {
-  background: #ffffff;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  padding: 24px 0;
-}
-
-.section-title {
-  font-size: 1.2rem;
-  margin: 0 0 12px;
-}
-
-.tech-list {
-  margin: 0;
-  padding-left: 20px;
-  font-size: 0.9rem;
-}
-
 /* フッター */
 .site-footer {
   padding: 16px 0 24px;
