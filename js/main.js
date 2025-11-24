@@ -27,7 +27,7 @@ async function fetchCities() {
   }
 }
 
-// ランダムにn件取得（重複なし）
+// ランダムに3件取得（重複なし）
 function pickRandomItems(array, count) {
   const copied = [...array];
   const picked = [];
@@ -43,7 +43,7 @@ function pickRandomItems(array, count) {
   return picked;
 }
 
-// カードを描画
+// カードを描画（タグなし）
 function renderRandomCities() {
   const container = document.getElementById("cards-container");
   const messageEl = document.getElementById("message");
@@ -73,44 +73,29 @@ function renderRandomCities() {
     const body = document.createElement("div");
     body.className = "card-body";
 
-    const cityLine = document.createElement("div");
-    cityLine.className = "card-city-line";
-
-    const cityName = document.createElement("div");
-    cityName.className = "card-city";
-    cityName.textContent = city.city || "不明な都市";
-
+    // 都道府県
     const pref = document.createElement("div");
     pref.className = "card-pref";
     pref.textContent = city.prefecture || "";
-
     body.appendChild(pref);
+
+    // 都市名
+    const cityName = document.createElement("div");
+    cityName.className = "card-city";
+    cityName.textContent = city.city || "不明な都市";
     body.appendChild(cityName);
 
+    // キャッチコピー
     const catchcopy = document.createElement("div");
     catchcopy.className = "card-catchcopy";
     catchcopy.textContent = city.catchcopy || "";
     body.appendChild(catchcopy);
 
+    // 説明文
     const desc = document.createElement("p");
     desc.className = "card-desc";
     desc.textContent = city.description || "";
     body.appendChild(desc);
-
-    // タグ
-    if (Array.isArray(city.tags) && city.tags.length > 0) {
-      const tagsWrapper = document.createElement("div");
-      tagsWrapper.className = "card-tags";
-
-      city.tags.forEach((tagText) => {
-        const tag = document.createElement("span");
-        tag.className = "tag";
-        tag.textContent = `#${tagText}`;
-        tagsWrapper.appendChild(tag);
-      });
-
-      body.appendChild(tagsWrapper);
-    }
 
     card.appendChild(imgWrapper);
     card.appendChild(body);
